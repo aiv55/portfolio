@@ -1,0 +1,2 @@
+Hello, I am Isaac Valadez.
+This my portfolio hosted at "isaacvaladez.com". Right now it is just an online resume built in Ruby using the Sinatra framework. By the end of this year I hope to expand this site to include neat stuff I've built, but for now my projects live at: https://github.com/aiv55
