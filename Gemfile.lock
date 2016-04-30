@@ -24,6 +24,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  rack
   sinatra!
 
 BUNDLED WITH
