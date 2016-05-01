@@ -12,12 +12,139 @@
     #content
       %header
         %h1 Amadeo Isaac Valadez
-        %p my digital resume
-        //%a(href='/resume.pdf) 
+        %p <a href='/resume.pdf' target="_blank">PDF Resume</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='https://www.linkedin.com/in/amadeo-valadez-5952482a' target="_blank">LinkedIn Profile</a>
+      #nav
+        %ul
+          %li
+            %a(href='#top') &nbsp;&nbsp;Employment&nbsp;&nbsp;
+          %li
+            %a(href='#education') &nbsp;&nbsp;Education&nbsp;&nbsp;
+          %li
+            %a(href='#skills') &nbsp;&nbsp;Skills&nbsp;&nbsp;
+          %li
+            %a(href='#achievements') &nbsp;&nbsp;Achievements&nbsp;&nbsp;
+          %li
+            %a(href='#affiliations') &nbsp;&nbsp;Affiliations&nbsp;&nbsp;
       #index
-        %p Content goes here!
-      %footer
-        %p I built this webpage, check out my code on <a href="https://github.com/aiv55/portfolio" target="_blank">Github</a>.
+        %h2 Employment
+        %h3 Global New Product Operations Engineer
+        %h4 Moonshot & Edgeline
+        %h5 Hewlett Packard Enterprise (April 2015 - Current)
+        %ul
+          %li
+            %p Coordinated complex milestones with regional supply chain factories, R&D, and various suppliers to release new server products to the market.
+          %li
+            %p Managed launch activities as the global supply chain single-point-of-contact for the launch of all HP Moonshot products, as well as the new HP Edgeline product line for IoT (“Internet of Things”) solutions.
+        %h3 Americas New Product Introductions Engineer 
+        %h4 Blade Servers
+        %h5 Hewlett Packard (January 2014 - April 2015)
+        %ul
+          %li
+            %p Managed the launch of Gen9 blade servers in the Americas region manufacturing sites, and supported the fulfillment of a $4 million early-delivery order for these new servers.
+          %li
+            %p Gained recognition for making major SharePoint improvements that directly resulted in team recognition for improved outward communications.
+        %h3 Web Development Project Manager
+        %h5 Ziqqu and Ziqqu LLC (Winter 2012- Fall 2015)
+        %ul
+          %li
+            %p Managed the development of two enterprise web applications, from concept to realization.
+          %li
+            %p Developed the concept for a web application to meet the needs of Baylor University, then refined the concept into a concrete scope of work.
+        %h3 Product Development Engineer
+        %h5 Nova Biologicals (Winter 2012- Summer 2013)
+        %ul
+          %li
+            %p Led the design, construction, and installation of a municipal water wellhead anti-terrorism device.
+          %li
+            %p Utilized design engineering skills including tamper proofing principles, SolidWorks modeling, cost estimation, and manufacturability analysis.
+        %h3 Program Developer/Leader
+        %h4 Baylor Innovation Challenge
+        %h5 Baylor University (Spring 2013)
+        %ul
+          %li
+            %p Hand-picked by the Baylor Engineering Department to develop and implement a program where engineering students brainstorm solutions for technical issues in developing countries.
+          %li
+            %p Worked with limited grant funds and successfully held 15 events in 3 months (reached all goals under budget).
+        %h3 Logistics Integrator Engineering Intern
+        %h4 International Space Station Launch Planning
+        %h5 Hamilton Sundstrand (Summer 2012)
+        %ul
+          %li
+            %p Used proficiency in Microsoft Access to design and construct a software application which is used to plan International Space Station launch manifests.
+          %li
+            %p Commended by management because the logistics integration team was able to switch from excel-based reporting to automated reporting through MS Access.
+        %h2(id='education') Education
+        %h3 Baylor University
+        %h4 Class of 2013 
+        %br                 
+        %h5 Major:
+        %p Bachelor of Science in Engineering 
+        %h6 *Included Mechanical Engineering core
+        %br 
+        %h5 Minors:
+        %p Mathematics
+        %p(class='inline') Entrepreneurship
+        %h6(class='inline') *equivalent
+        %h2(id='skills') Skills
+        .skill
+          %h3 Software
+          %p Ruby on Rails & Sinatra
+          %p HTML
+          %p CSS
+          %p Javascript
+          %p SolidWorks
+          %p TI-89
+          %p Matlab
+          %p +9 Microsoft Programs
+        .skill
+          %h3 Professional
+          %p Project Management
+          %p Mechanical Design
+          %p Distributed Teams
+          %p Supply Chain Strategy
+          %p Global Manufactoring Logistics
+          %p Web Development
+          %p Graphic Design
+          %p Puplic Speaking
+        %h2(id='achievements') Achievements
+        %h3 Senior Design Project Team Lead
+        %h5 Nova Biologicals (2012)
+        %ul
+          %li
+            %p Led a Baylor mechanical design team in the development of a wellhead security device.
+          %li
+            %p My team completely redesigned and simplified the device as part of a senior design project and improved performance while reducing costs by 78%.
+        %h3 Engineering Team Lead 
+        %h5 Baylor University (Nicaragua, 2012)
+        %ul
+          %li
+            %p Hand-picked by Baylor Marketing Department to lead the technical aspects of this project.
+          %li
+            %p Team traveled to Nicaragua to evaluate the market potential of a solar water pasteurizer.
+          %li
+            %p Redesigned the device while in the country to meet market demands.
+        %h3 Design Engineer
+        %h5 Engineers with a Mission (Honduras, 2010)
+        %ul
+          %li
+            %p Drafted, designed and built a 12kW hydroelectric generator motor mount for an orphanage in Honduras while still a freshman in college.
+          %li
+            %p The generator has been in constant use since installation in the summer of 2010.
+        %h2(id='affiliations') Affiliations
+        %ul
+          %li
+            %p Engineer In Training (EIT) Status
+          %li
+            %p Co-Inventor on the CVSD patent (Casing Vent Security Device designed for Nova Biologicals)
+          %li
+            %p President’s Gold Scholarship ($44,000)
+          %li
+            %p Engineers with a Mission
+    %footer
+      #contact
+        %p <a href='tel://1-832-296-7178'>832.296.7178</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href='mailto:hello@isaacvaladez.com'>hello@isaacvaladez.com</a>
+      #github
+        %p Check out my code for this webpage on <a href="https://github.com/aiv55/portfolio" target="_blank">Github</a>.
     #share
       %a(href="https://www.facebook.com/sharer/sharer.php?u=isaacvaladez.com" target='_blank') <svg enable-background="new 0 0 48 48" id="Layer_1" version="1.1" viewBox="0 0 48 48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="24" cy="24" fill="#4E71A8" r="24"/><path d="M29.9,19.5h-4v-2.6c0-1,0.7-1.2,1.1-1.2c0.5,0,2.8,0,2.8,0v-4.4l-3.9,0c-4.4,0-5.3,3.3-5.3,5.3v2.9h-2.5V24  h2.5c0,5.8,0,12.7,0,12.7h5.3c0,0,0-7,0-12.7h3.6L29.9,19.5z" fill="#FFFFFF"/></svg>
       %a(href="https://www.linkedin.com/shareArticle?mini=true&url=isaacvaladez.com&title=Check%20out%20this%20resume&summary=&source=" target='_blank') <svg enable-background="new 0 0 48 48" id="Layer_1" version="1.1" viewBox="0 0 48 48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="24" cy="24" fill="#1686B0" r="24"/><path d="M17.4,34.9h-4.6V20.1h4.6V34.9z M14.9,18.2L14.9,18.2c-1.7,0-2.8-1.1-2.8-2.6c0-1.5,1.1-2.6,2.8-2.6  c1.7,0,2.8,1.1,2.8,2.6C17.7,17.1,16.7,18.2,14.9,18.2z M35.9,34.9h-5.3v-7.7c0-2-0.8-3.4-2.6-3.4c-1.4,0-2.1,0.9-2.5,1.8  c-0.1,0.3-0.1,0.8-0.1,1.2v8h-5.2c0,0,0.1-13.6,0-14.8h5.2v2.3c0.3-1,2-2.5,4.6-2.5c3.3,0,5.9,2.1,5.9,6.7V34.9z" fill="#FFFFFF"/></svg>
