@@ -1,10 +1,13 @@
 GIT
   remote: git://github.com/sinatra/sinatra.git
-  revision: 84e76b839b8e356e36397c5395db0fa39a6d5642
+  revision: 91477e6dad7c9d8eb1c358e47b9d83b73d626f84
   specs:
-    sinatra (2.0.0.pre.alpha)
-      rack (= 2.0.0.alpha)
-      rack-protection (~> 1.5)
+    rack-protection (2.1.0)
+      rack
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
 
 GEM
@@ -12,12 +15,11 @@ GEM
   specs:
     haml (4.0.7)
       tilt
-    json (1.8.3)
-    rack (2.0.0.alpha)
-      json
-    rack-protection (1.5.3)
-      rack
-    tilt (2.0.2)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.3)
+    ruby2_keywords (0.0.2)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
